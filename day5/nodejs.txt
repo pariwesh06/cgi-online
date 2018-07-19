@@ -1,0 +1,34 @@
+Concurrent/Asynchronous programming => CPU => Throughtput
+
+6 years ago=> Javascript Single-threaded => Node.js
+
+Node.js => web/standalone
+
+Javascript engine/runtime => Mozilla, V8 (chrome, safari), Chakra(IE 6,7) => JRE
+
+node = tools (node + npm) , Core Apis, V8
+JDK = tools(javac, java, javah), Core Api, JRE
+
+
+If harware is not in question then using multithread we can increase time complexity even the task is short lived.As compare to space, time is important to me :)
+
+64kb 
+
+MEAN Stack
+
+Is node.js a UI framework? => No, BuildTool, web-services
+
+Java Api = packages => Node modules
+
+function:independent
+ method: will exist in an object 
+
+npm init => create package.json
+npm install <path of module> => 
+
+Queries:
+-------
+1. how can we say node js is portable? for java there is jvm. for node js any thing like that?
+2. can i import multiple modules with one require - like require('os', 'fs' ) - like that	
+
+3. can you return the data  from read() function and display it in client.js?
