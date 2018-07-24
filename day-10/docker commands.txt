@@ -1,0 +1,20 @@
+docker images
+docker run -d redis
+docker ps
+docker inspect <container_id>
+
+docker run -d --name redisHostPort -p 6379:6379 redis:latest
+
+docker run -d --name redisDynamic -p 6379 redis:latest
+docker port redisDynamic 6379  => 0.0.0.0:32768
+
+
+docker run -d --name redisMapped -v /opt/docker/data/redis:/data redis
+
+docker run -d --name my-running-app -e NODE_ENV=development -p 3001:3000 my-nodejs-app
+
+docker run -d -p 3000:3000 --link redis-server:redis katacoda/redis-node-docker-example
+
+
+windows 7 => https://docs.docker.com/toolbox/overview/  + Oracle Virtual Box (BIOS)
+windows 10 => https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe   Hyper-V
